@@ -63,7 +63,7 @@
 }
 
 .list-inline-item:not(:last-child) {
-    margin: 0; 
+    margin: -5px; 
 }
 
 .menucontainer{
@@ -71,7 +71,41 @@
 }
     
 
-#nav li{
+#nav li {
     font-size: 14px;
     padding:0;
 }
+
+#nav li a{
+    background-size: cover;
+    
+}
+
+#nav li span{
+    display: block;
+    color:#fff;
+    padding-top: 5px;
+    
+}
+
+#nav li i {
+    display:inline-block;
+    color:#fff;
+    padding-top: 25px;
+
+}
+
+
+.menuitem{
+    height:120px;
+    text-align: center;
+}
+
+.no-gutters{
+    margin: -2px;
+}
+
+.bit-right{
+    padding-left: 5px;
+}
+
