@@ -69,6 +69,10 @@
 .menucontainer{
     font-size: 0;
 }
+
+#nav{
+    margin:0;
+}
     
 
 #nav li {
@@ -85,13 +89,19 @@
     display: block;
     color:#fff;
     padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
     
 }
 
 #nav li i {
-    display:inline-block;
+    display:block;
     color:#fff;
     padding-top: 25px;
+    font-size: 26px;
 
 }
 
@@ -101,11 +111,23 @@
     text-align: center;
 }
 
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height:120px;
+}
+
 .no-gutters{
     margin: -2px;
 }
 
 .bit-right{
     padding-left: 5px;
+}
+
+.hvr-sweep-to-bottom::before{
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
 }
 
