@@ -68,7 +68,7 @@ h1,h2,h3,h4{
 }
 
 
-/*------------------Header -----*/
+/*--------------------------------------------------Header -----*/
 
 .header{
     margin:0;
@@ -176,7 +176,7 @@ h1,h2,h3,h4{
     height: 120px;
 }
 
-/*------------------Footer-----*/
+/*---------------------------------------------------Footer-----*/
 
 footer{
     min-height: 120px;
@@ -221,4 +221,15 @@ footer{
 
 #footer-details{
     padding:20px;
+}
+
+/*---------------------------------------------------Three Reasons -----*/
+
+.three-reasons-icon{
+    font-size:26px;
+    color:#e67e22;
+}
+
+.three-reasons-heading{
+    margin-bottom: 15px;
 }
