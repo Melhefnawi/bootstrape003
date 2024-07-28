@@ -34,6 +34,10 @@ body{
     background-color:#f4f4f4 ;
 }
 
+.bg-color-personal-info-resume{
+    background-color:#9b59b6;
+}
+
 /*------------------Special padding/margine/text -----*/
 
 h1,h2,h3,h4{
